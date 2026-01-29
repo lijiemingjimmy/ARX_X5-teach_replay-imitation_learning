@@ -1,0 +1,11 @@
+# Images Directory
+
+This directory is a placeholder for documentation images, diagrams, and screenshots.
+
+## Usage
+
+Place your images here and reference them in markdown files using relative paths:
+
+```markdown
+![Image Description](images/your-image.png)
+```
