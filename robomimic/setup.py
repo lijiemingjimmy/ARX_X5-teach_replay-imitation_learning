@@ -30,7 +30,7 @@ setup(
         "torch",
         "torchvision",
         "huggingface_hub==0.23.4",
-        "transformers==4.41.2",
+        "transformers>=4.48.0",
         "diffusers==0.11.1",
     ],
     eager_resources=['*'],
