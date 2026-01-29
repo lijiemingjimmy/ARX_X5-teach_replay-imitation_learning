@@ -25,7 +25,7 @@
 
 > 以下参数来自公开视频/论文/复现文档，存在轻微差异，仅用于量级参考。
 
-![ARX X5 机械臂](docs/images/arx_x5_robot.jpg)
+![ARX X5 机械臂](docs/d83ffa6b0b06c137b32fac9ce7907967.jpg)
 *ARX X5 机械臂实物图*
 
 - 自由度：6 DoF
@@ -53,7 +53,7 @@
 
 ### 4.1 环境准备
 
-![环境配置](docs/images/environment_setup.png)
+![环境配置](docs/d3a5395c670f72aed280957fb63967fd.jpg)
 *Ubuntu 24.04 + ROS2 Jazzy 环境配置*
 
 - 操作系统：Ubuntu 24.04（建议 Desktop 版）
@@ -67,7 +67,7 @@
 
 ### 4.2 CAN 设备绑定
 
-![CAN 设备连接](docs/images/can_device.jpg)
+![CAN 设备连接](docs/f16bb97f6b3238a552bf4284c86a839a.jpg)
 *CAN USB 设备连接示意图*
 
 步骤：
@@ -110,7 +110,7 @@ ros2 launch arx_x5_controller open_single_arm.launch.py
 
 ### 4.5 rqt 测试
 
-![rqt 控制界面](docs/images/rqt_interface.png)
+![rqt 控制界面](docs/be3b97d8df58f14801a56c2269f87928.jpg)
 *使用 rqt 进行关节控制测试*
 
 ```bash
@@ -184,7 +184,7 @@ ros2 run arx_keyboard_teleop teleop_joint
 
 ### 5.6 安全机制（强烈建议）
 
-![键盘遥控演示](docs/images/keyboard_teleop.gif)
+![键盘遥控演示](docs/c1e3fb1d899b37999611478da7047459.jpg)
 *键盘关节空间遥控演示*
 
 - **Deadman 键**：不按不动，松手急停（推荐 `Shift` 或 `Space`）
@@ -248,7 +248,7 @@ ros2 run arx_keyboard_cart_teleop teleop_cart
 
 ### 6.6 键位设计（示例）
 
-![笛卡尔空间遥控](docs/images/cartesian_teleop.gif)
+![笛卡尔空间遥控](docs/392ce745e84282e2f99b01a834443777.jpg)
 *键盘笛卡尔空间遥控演示*
 
 - Deadman：`Shift`（按住才能动）
@@ -318,7 +318,7 @@ python examples/test_joint_control.py X5 can1
 
 ### 8.4 Teach / Replay
 
-![Teach Replay 流程](docs/images/teach_replay_workflow.png)
+![Teach Replay 流程](docs/8856c1400e648251c52685d8f69f27a8.jpg)
 *Teach & Replay 工作流程示意图*
 
 ```bash
@@ -327,7 +327,7 @@ python examples/teach_replay.py -h
 
 ### 8.5 自定义版本（teach_replay_new.py）
 
-![数据采集过程](docs/images/data_collection.jpg)
+![数据采集过程](docs/bce903ac0654ee7bb83708404d70da73.jpg)
 *使用 Teach/Replay 进行数据采集*
 
 目标：
@@ -370,7 +370,7 @@ python robomimic/scripts/get_dataset_info.py --dataset datasets/lift/ph/low_dim_
 
 ### 9.4 训练
 
-![训练过程](docs/images/training_process.png)
+![训练过程](docs/image.png)
 *Robomimic 训练过程可视化*
 
 ```bash
@@ -382,7 +382,7 @@ python robomimic/scripts/train.py \
 
 ### 9.5 可视化
 
-![TensorBoard 监控](docs/images/tensorboard.png)
+![TensorBoard 监控](docs/c2b37aaf837d1de4a8d0f67149c96456.jpg)
 *使用 TensorBoard 监控训练指标*
 
 ```bash
